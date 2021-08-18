@@ -136,10 +136,14 @@ section {
 
 .close-menu {
   position: absolute;
-  color: #4267b2;
+  color: white;
   top: 0.8rem;
   right: 2rem;
   font-size: 1.5rem;
+}
+
+.fa-times {
+  color: white;
 }
 
 .nav__list {
@@ -579,7 +583,7 @@ section {
   }
 
   .home__img {
-    width: 340px;
+    width: 300px;
     bottom: 15%;
   }
 
@@ -590,7 +594,7 @@ section {
   }
 
   .about__img img {
-    width: 400px;
+    width: 300px;
   }
 
   .contact__form {
