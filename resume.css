@@ -242,9 +242,11 @@ section {
 
 .home__img{
   position: absolute;
-  right: 1.5rem;
+  right: 0;
   bottom: 0;
-  width: 295px;
+  width: 250px;
+  min-width: 200px;
+
 }
 
 .home__img img {
@@ -617,6 +619,7 @@ section {
   }
 
   .home__img {
+    width: 395px;
     right: 10%
   }
 
