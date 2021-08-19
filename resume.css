@@ -199,7 +199,7 @@ section {
 /*==== HOME ==== */
 .home {
   height: calc(100vh - 3rem);
-  row-gap: 1rem;
+  row-gap: 2rem;
 }
 
 
@@ -208,11 +208,10 @@ section {
 }
 
 .home__title {
-  font-size: 2.5rem;
+  font-size: 2.2rem;
   margin-bottom: 2.5rem;
 
 }
-
 
 .home__title-first {
   color: #1261a0;
@@ -228,7 +227,7 @@ section {
 .home__social-icon {
   width: max-content;
   font-size: 1.5rem;
-  margin: 1rem;
+  margin-bottom: 1rem;
   color: black;
   transition: 0.5s;
 }
@@ -244,9 +243,7 @@ section {
   position: absolute;
   right: 0;
   bottom: 0;
-  width: 250px;
-  min-width: 200px;
-
+  width: 200px;
 }
 
 .home__img img {
@@ -260,7 +257,7 @@ section {
   display: inline-block;
   background-color: #1261a0;
   color: white;
-  padding: 1.5rem 2.5rem;
+  padding: 0.75rem 2rem;
   font-weight: 600;
   border-radius: 0.5rem;
   transition: 0.5s;
@@ -396,9 +393,6 @@ section {
   font-weight: 500;
 }
 
-.education__year {
-  text-transform: it;
-}
 
 
 /*=== experience === */
@@ -607,7 +601,6 @@ section {
     justify-items: center;
   }
 
-  
   .hng__logo img{
     width: 500px;
   }
@@ -621,7 +614,7 @@ section {
 
   .home__img {
     width: 395px;
-    right: 10%
+    right: 10%;
   }
 
   .hng__logo img{
